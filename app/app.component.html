@@ -1,0 +1,8 @@
+<div *ngFor="let item of data">
+  <span>
+    <ngx-gauge *ngIf="current" [value]="current.distance ?? 0"></ngx-gauge>
+    ID: {{ item.id }},
+    Weight: {{ item.weight }},
+    Distance: {{ item.distance }}
+  </span>
+</div>

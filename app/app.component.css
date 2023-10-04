@@ -1,0 +1,21 @@
+/* Add this style to your app.component.css or your global styles file */
+
+/* Style for the container of each data item */
+span {
+    display: block;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  /* Style for the ngx-gauge component */
+  ngx-gauge {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  /* Style for the data details */
+  p {
+    margin: 5px 0;
+  }
+  
