@@ -1,3 +1,17 @@
+<!-- app.component.html -->
+
+<div>
+  <!-- Navigation Links (if needed) -->
+  <nav>
+    <a routerLink="/auth">Authentication</a>
+    <a routerLink="/info">Info</a>
+  </nav>
+
+  <!-- Routed Component Content -->
+  <router-outlet></router-outlet>
+</div>
+
+<!-- Your existing ngx-gauge and data display -->
 <div *ngFor="let item of data">
   <span>
     <ngx-gauge *ngIf="current" [value]="current.distance ?? 0"></ngx-gauge>
