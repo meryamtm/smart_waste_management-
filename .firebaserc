@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "poubelle-intelligente-6143e": {
+      "hosting": {
+        "poubelle_connectees": [
+          "poubelle-intelligente-6143e"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "poubelle-intelligente-6143e"
+  }
+}
